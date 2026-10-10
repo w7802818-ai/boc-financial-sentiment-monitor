@@ -1,0 +1,12 @@
+# Keep CSV files as UTF-8 text; do not normalise line endings in data files.
+*.csv text eol=lf
+
+# Mark notebooks and JSON as text for cleaner diffs.
+*.json text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+
+# Treat model binaries as binary (should they ever be added).
+*.safetensors binary
+*.bin binary
