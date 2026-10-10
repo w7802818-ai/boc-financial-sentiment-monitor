@@ -1,0 +1,3 @@
+﻿model,path,id2label,index_to_project,status
+boc_distilbert_sentiment,HF_MODEL_ID (published repo),"{""0"": ""negative"", ""1"": ""neutral"", ""2"": ""positive""}","{""0"": 0, ""1"": 1, ""2"": 2}",ok
+ProsusAI/finbert,ProsusAI/finbert,"{""0"": ""positive"", ""1"": ""negative"", ""2"": ""neutral""}","{""0"": 2, ""1"": 0, ""2"": 1}",ok

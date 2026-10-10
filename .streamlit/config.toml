@@ -1,0 +1,22 @@
+# Streamlit runtime configuration for Streamlit Community Cloud.
+#
+# NOTE: Streamlit Cloud manages port binding, CORS, and XSRF protection itself.
+# We deliberately do NOT override those here - setting `enableCORS = false`
+# triggers a security warning and weakens protection. Only cosmetic and
+# telemetry settings are configured below.
+
+[browser]
+# Disable anonymous usage telemetry. This is a `[browser]` option, not `[server]`.
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#C62828"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#212121"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"

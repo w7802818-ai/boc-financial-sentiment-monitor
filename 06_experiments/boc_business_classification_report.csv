@@ -1,0 +1,7 @@
+﻿model,class_name,support,precision,recall,f1
+distilbert,negative,6,0.7143,0.8333,0.7692
+distilbert,neutral,7,0.8,0.5714,0.6667
+distilbert,positive,7,0.625,0.7143,0.6667
+finbert,negative,6,0.6667,0.6667,0.6667
+finbert,neutral,7,1.0,0.4286,0.6
+finbert,positive,7,0.5455,0.8571,0.6667

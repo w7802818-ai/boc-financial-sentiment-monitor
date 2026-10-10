@@ -1,0 +1,63 @@
+NOTICE — Third-party components and licensing
+==============================================
+
+This repository is an academic coursework artifact produced for the
+HKUST ISOM5240 group project "AI-Powered Financial Information Monitoring for
+Bank of China".
+
+NON-COMMERCIAL USE
+------------------
+The fine-tuned sentiment model used by this application is derived from data
+that is licensed for NON-COMMERCIAL use only. The model and this application
+are therefore intended for academic, research, and personal non-commercial use.
+Commercial use requires a separate license — see below.
+
+1. Fine-tuned DistilBERT model (primary model)
+   --------------------------------------------
+   - Base model:  distilbert-base-uncased  — Apache-2.0
+   - Training data: Financial PhraseBank v1.0 (Sentences_AllAgree)
+                   — Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                     Unported (CC BY-NC-SA 3.0)
+   - Resulting model license: CC BY-NC-SA 3.0
+     (inherits NonCommercial + ShareAlike from the training data)
+
+   The base model's Apache-2.0 license does not override the NonCommercial
+   restriction, because the model weights were produced from the
+   NonCommercial-licensed corpus.
+
+   Financial PhraseBank citation:
+     P. Malo, A. Sinha, P. Korhonen, J. Wallenius, P. Takala (2014).
+     "Good debt or bad debt: Detecting semantic orientations in economic texts."
+     Journal of the Association for Information Science and Technology, 65.
+
+   Commercial licensing enquiries for the data must be directed to the
+   dataset authors (Pekka Malo, Ankur Sinha).
+
+2. Comparison model: ProsusAI/finbert
+   -----------------------------------
+   - Loaded at runtime from the Hugging Face Hub. NOT redistributed here.
+   - The upstream repository declares NO license.
+   - No license is asserted for it by this project.
+
+3. Application code
+   -----------------
+   Original work by the project authors. Provided for academic use.
+   No license is granted for commercial redistribution.
+
+4. BOC evaluation dataset (04_dataset/)
+   -------------------------------------
+   Small (20-record) evaluation set compiled for academic analysis.
+   Contains short excerpts of publicly available Bank of China disclosures
+   and public financial news, retained as fair-dealing quotations for
+   research purposes, with source URLs recorded.
+
+NO WARRANTY
+-----------
+This software and its outputs are provided "as is", without warranty of any
+kind. Predictions are a screening aid for human review only. They are NOT
+investment advice, NOT a risk judgement, and NOT evidence of any regulatory
+violation or realised financial event.
+
+This NOTICE is a good-faith summary of upstream license metadata and is not
+legal advice. Consult the original licenses before any use beyond academic
+research.

@@ -1,0 +1,14 @@
+﻿model,id,source_name,title,true_sentiment,pred_sentiment,confidence
+distilbert,BOC_OFF_003,Bank of China,2025 Interim Results,neutral,positive,0.8689
+distilbert,BOC_OFF_007,Bank of China,2025 Interim Results,positive,negative,0.9513
+distilbert,BOC_OFF_009,Bank of China,2025 Interim Results,neutral,positive,0.9626
+distilbert,BOC_EXT_001,Reuters,Bank of China posts 2.18% rise in 2025 profit,neutral,negative,0.9361
+distilbert,BOC_EXT_007,China Business Journal (中国经营报),Bank of China's corporate property loan NPL ratio rose to 6.26%,negative,positive,0.9596
+distilbert,BOC_EXT_009,Guandian (观点网),Bank of China underwrites EDP and REN green bonds in Portugal,positive,neutral,0.8664
+finbert,BOC_OFF_003,Bank of China,2025 Interim Results,neutral,positive,0.8179
+finbert,BOC_OFF_006,Bank of China,2025 Interim Results,neutral,positive,0.9199
+finbert,BOC_OFF_007,Bank of China,2025 Interim Results,positive,negative,0.9684
+finbert,BOC_OFF_009,Bank of China,2025 Interim Results,neutral,positive,0.9552
+finbert,BOC_EXT_001,Reuters,Bank of China posts 2.18% rise in 2025 profit,neutral,negative,0.7501
+finbert,BOC_EXT_007,China Business Journal (中国经营报),Bank of China's corporate property loan NPL ratio rose to 6.26%,negative,positive,0.954
+finbert,BOC_EXT_008,Bank of China (Q1 2026 report),Bank of China 2026 first-quarter report,negative,positive,0.7179

@@ -1,0 +1,69 @@
+# ---- Secrets & credentials (never commit) ----
+.env
+.env.*
+!.env.example
+*.token
+.hf_token
+hf_token.txt
+secrets.toml
+.streamlit/secrets.toml
+.streamlit/secrets.*
+*.key
+*.pem
+*.p12
+credentials.json
+service-account*.json
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ---- Python caches & build artefacts ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Model weights (served from the Hugging Face Hub, not the repo) ----
+05_models/
+*.safetensors
+*.bin
+*.h5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# ---- Large / local-only data ----
+*.zip
+*.tar
+*.tar.gz
+FinancialPhraseBank/
+*.parquet
+*.feather
+
+# ---- Logs & temp ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Streamlit local state ----
+.streamlit/secrets.toml
